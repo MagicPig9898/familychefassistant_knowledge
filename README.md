@@ -12,6 +12,8 @@ how to run the project:
 - venv\Scripts\activate
 - pip install -r requirements.txt
 - if you add、remove or upgrade the pip install, pleae update requirements.txt and git push the changes
+- python -m app.main 或 uvicorn app.main:app --reload，启动服务
+- 启动后访问 http://localhost:8000/docs 可看到 Swagger 交互文档，直接测试所有接口。Chroma 数据持久化在 data/chroma/ 目录。
 
 # project struct
 ```
