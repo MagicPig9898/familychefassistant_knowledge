@@ -20,6 +20,5 @@ class DocumentQuery(BaseModel):
 
 class DocumentUpdate(BaseModel):
     """更新文档请求"""
-    id: str  # 文档ID，必须是字符串
     text: str  # 新的文本
     metadata: dict | None = None  # 可选，更新附加信息
