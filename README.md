@@ -6,7 +6,7 @@ used:
 - fastapi 
 - uvicorn
 
-how to run the project:
+运行项目:
 - git clone 
 - python -m venv venv
 - venv\Scripts\activate
